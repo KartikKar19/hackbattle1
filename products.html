@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>Products</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link class="logo" rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        /* Your existing styles here */
+
+        body {
+          background-image: url("bg3.jpg");
+          background-size: cover;
+          background-position: center;
+          font-family: Arial, sans-serif;
+        }
+
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+
+        .login-form {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 40px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          height: 40%;
+          width:20%;
+        }
+
+        .login-form h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .login-form label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 15px;
+        }
+
+        .login-button {
+          display: block;
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+        }
+
+        .login-button:hover {
+          background-color: #45a049;
+        }
+
+        .navbar {
+            background-color: #5cc1dd;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .logo {
+            height: 60px;
+            width: 100px;
+            border: 1px solid #000000;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end; /* Align list elements to the right */
+            align-items: center; /* Vertically center list elements */
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+            text-align: center; /* Center text within list items */
+        }
+        .navbar ul li:first-child {
+            margin-left: 0; /* Remove margin for the first li (logo) */
+        }
+        .footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+        }
+        .card {
+          border: none;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+          transition: transform 0.2s;
+        }
+
+        .card:hover {
+          transform: translateY(-5px);
+        }
+
+        .card-title {
+          font-size: 1.25rem;
+          font-weight: bold;
+        }
+
+        .card-text {
+          color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="logo">
+                <li><img src="cslogo.jpeg" height="60px" width="100px" alt="CrowdSense"></li>
+            </div>
+            <li><a href="index.html">Why Crowd Sense?</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="camera.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smart Sense</h5>
+              <p class="card-text">Compact Weather proof design.</p>
+              <p class="card-text">No need for D.V.R Wireless design App support.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Your Perfect Safety Buddy.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="cameraset.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Guardian Viz</h5>
+              <p class="card-text">Affordable Weather Proof Design Combined set for complete protection Web support.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Complete Protection For Friends And Family</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="dvr.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SmartHub</h5>
+              <p class="card-text">Affordable ,D.V.R set best in the market with the newest features.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">A Must Investment For Your Business Success</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <footer>
+            <p>&copy; 2023 Crowd Sense. All rights reserved.</p>
+          </footer>
+      </div>
+</body>
+</html>
